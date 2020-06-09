@@ -8,5 +8,8 @@ This script implements Ed Wilson's [Get-FileMetaDataReturnObject.ps1](https://ga
 This script should not reside in the same `path` as the data of interest.  Additionally, the `path` must be the directory of interest where the file(s) reside as the `COM Shell.Application` object operates on the directory and not the individual files.
 
 ```powershell
+.\Rename-FileWithDateTakenExif.ps1 <directory_path>
+
+# Example
 .\Rename-FileWithDateTakenExif.ps1 c:\exif_pics\
 ```
